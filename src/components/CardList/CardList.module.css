@@ -1,0 +1,39 @@
+.main {
+    padding: 2rem;
+}
+
+.headerRow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-inline: 2rem;
+    margin-bottom: 2rem;
+}
+
+.headerRow h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.cardGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+    padding-inline: 2rem;
+}
+
+@media (min-width: 600px) {
+    .cardGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 960px) {
+    .cardGrid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

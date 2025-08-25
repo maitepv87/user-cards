@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Jenny Wilson",
+    "age": 29,
+    "profession": "Marketing Coordinator",
+    "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Devon Lane",
+    "age": 40,
+    "profession": "UX Designer",
+    "avatar": "https://randomuser.me/api/portraits/men/32.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Eleanor Pena",
+    "age": 32,
+    "profession": "Nurse",
+    "avatar": "https://randomuser.me/api/portraits/women/68.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Cody Fisher",
+    "age": 26,
+    "profession": "Web Developer",
+    "avatar": "https://randomuser.me/api/portraits/men/75.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Courtney Henry",
+    "age": 35,
+    "profession": "Product Manager",
+    "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Robert Fox",
+    "age": 31,
+    "profession": "Data Analyst",
+    "avatar": "https://randomuser.me/api/portraits/men/45.jpg"
+  }
+]

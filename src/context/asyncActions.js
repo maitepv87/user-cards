@@ -1,0 +1,6 @@
+export const ASYNC_ACTIONS = {
+  START: "START",
+  SUCCESS: "SUCCESS",
+  ERROR: "ERROR",
+  RESET: "RESET",
+};

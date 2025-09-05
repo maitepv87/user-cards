@@ -1,7 +1,7 @@
 import { useContext, useEffect } from "react";
 import { HeaderNav, CardList, FooterInfo } from ".";
 import { AsyncContext } from "../context/AsyncContext";
-import { fetchAsyncData } from "../context/fetchAsyncData";
+import { fetchAsyncData } from "../context/actions";
 
 export const AppLayout = () => {
   const { state, dispatch } = useContext(AsyncContext);

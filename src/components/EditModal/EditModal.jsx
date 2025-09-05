@@ -1,15 +1,21 @@
+import { useContext } from "react";
 import { createPortal } from "react-dom";
 import { useFormReducer } from "../../hooks/useFormReducer";
+import { AsyncContext } from "../../context/AsyncContext";
+import { updateUser } from "../../context/actions/updateUser";
 import styles from "./EditModal.module.css";
 
 export const EditModal = ({ show, onHide, initialForm }) => {
   const { state, onChange, onReset } = useFormReducer(initialForm);
+  const { dispatch } = useContext(AsyncContext);
 
   if (!show) return null;
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(state);
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    updateUser(dispatch, state);
+
     onHide();
     onReset();
   };

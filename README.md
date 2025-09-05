@@ -2,6 +2,8 @@
 
 This project is part of a personal series of React exercises focused on improving fluency, architectural clarity, and emotionally intelligent UI design.
 
+![User Cards Screenshot](./src/assets/Screenshot.png)
+
 ## Purpose
 
 To practice:
